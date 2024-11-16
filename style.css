@@ -1,0 +1,537 @@
+*{
+    /* background-color: black; */
+    margin: 0;
+    overflow: hidden;
+}
+.display{
+    width: 1000%;
+    overflow: hidden;
+    height: 30vh;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    border: none;
+    text-align: left;   
+}
+
+.input-number{
+    /* margin-left: 20px; */
+    background-color: black;
+    position: relative;
+    top:-5px;
+}
+
+#value0{
+    padding: 25px;
+    padding-right: 120px;
+    border-radius: 26em;
+    border: none;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 10px;
+    color: white;
+    background-color: rgb(36, 28, 28);
+}
+
+#valuea{
+    padding: 30px;
+    border-radius: 100%;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 30px;
+    color: white;
+    background-color: rgb(36, 28, 28);
+}
+.symbol{
+    padding: 25px;
+    border-radius: 50%;
+    border: none;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    background-color: orange;
+}
+
+
+.number{
+    padding: 25px;
+    border-radius: 50%;
+    border: none;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 5px;
+    margin-left: 15px;
+    color: white;
+    background-color: rgb(36, 28, 28);
+}
+
+.numerals{
+    padding: 25px;
+    border-radius: 50%;
+    border: none;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 5px;
+    color: white;
+    background-color: grey;
+}
+
+@media(max-width:786px){
+    .display{
+        width: 1000%;
+        overflow: hidden;
+        height: 30vh;
+        background-color: black;
+        color: white;
+        font-size: 50px;
+        border: none;
+        text-align: left;   
+    }
+    .input-number{
+        margin-top:-5px;
+        background-color: black;
+        position: relative;
+        height: 100vh;
+    }
+    .number{
+        padding: 25px;
+        border-radius: 50%;
+        border: none;
+        font-size: 30px;
+        font-weight: 600;
+        margin-right: 10px;
+        margin-left: 55px;
+        color: white;
+        background-color: rgb(36, 28, 28);
+    }
+
+    #value0{
+        padding:25px;
+        padding-right: 150px;
+        border-radius: 26em;
+        border: none;
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 50px;
+        margin-right: 10px;
+        color: white;
+        background-color: rgb(36, 28, 28);
+    }
+    
+    #valuea{
+        padding: 35px;
+        border-radius: 50%;
+        border: none;
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 60px;
+        color: white;
+        background-color: rgb(36, 28, 28);
+    }
+    .symbol{
+        padding: 25px;
+        border-radius: 50%;
+        border: none;
+        font-size: 30px;
+        color: white;
+        margin-left: 25px;
+        font-weight: 600;
+        background-color: orange;
+    }
+
+    .numerals{
+        padding: 25px;
+        border-radius: 50%;
+        border: none;
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 50px;
+        color: white;
+        background-color: grey;
+    }   
+}
+
+@media(max-width:375px){
+    .display{
+        width: 1000%;
+        overflow: hidden;
+        height: 30vh;
+        background-color: black;
+        color: white;
+        font-size: 50px;
+        border: none;
+        text-align: left;   
+    }
+    
+    .input-number{
+        /* margin-left: 20px; */
+        background-color: black;
+        position: relative;
+        top:-5px;
+    }
+    
+    #value0{
+        padding: 25px;
+        padding-right: 120px;
+        border-radius: 26em;
+        border: none;
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 10px;
+        color: white;
+        background-color: rgb(36, 28, 28);
+    }
+    
+    #valuea{
+        padding: 30px;
+        border-radius: 100%;
+        border: none;
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 15px;
+        color: white;
+        background-color: rgb(36, 28, 28);
+    }
+    .symbol{
+        padding: 25px;
+        border-radius: 50%;
+        border: none;
+        font-size: 30px;
+        color: white;
+        font-weight: 600;
+        background-color: orange;
+    }
+    
+    
+    .number{
+        padding: 25px;
+        border-radius: 50%;
+        border: none;
+        font-size: 30px;
+        font-weight: 600;
+        margin: 5px;
+        margin-left: 15px;
+        color: white;
+        background-color: rgb(36, 28, 28);
+    }
+    
+    .numerals{
+        padding: 25px;
+        border-radius: 50%;
+        border: none;
+        font-size: 30px;
+        font-weight: 600;
+        margin: 5px;
+        color: white;
+        background-color: grey;
+    }
+}
+
+@media(max-width:500px){
+    .display{
+        width: 1000%;
+        overflow: hidden;
+        height: 30vh;
+        background-color: black;
+        color: white;
+        font-size: 50px;
+        border: none;
+        text-align: left;   
+    }
+    
+    .input-number{
+        /* margin-left: 20px; */
+        background-color: black;
+        position: relative;
+        top:-5px;
+    }
+    
+    #value0{
+        padding: 25px;
+        padding-right: 130px;
+        border-radius: 26em;
+        border: none;
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 25px;
+        color: white;
+        background-color: rgb(36, 28, 28);
+    }
+    
+    #valuea{
+        padding: 30px;
+        border-radius: 100%;
+        border: none;
+        font-size: 20px;
+        font-weight: 600;
+        margin-left:30px;
+        color: white;
+        background-color: rgb(36, 28, 28);
+    }
+    .symbol{
+        padding: 25px;
+        border-radius: 50%;
+        border: none;
+        font-size: 30px;
+        color: white;
+        font-weight: 600;
+        background-color: orange;
+    }
+    
+    
+    .number{
+        padding: 25px;
+        border-radius: 50%;
+        border: none;
+        font-size: 30px;
+        font-weight: 600;
+        margin: 5px;
+        margin-left: 30px;
+        color: white;
+        background-color: rgb(36, 28, 28);
+    }
+    
+    .numerals{
+        padding: 25px;
+        border-radius: 50%;
+        border: none;
+        font-size: 30px;
+        font-weight: 600;
+        margin: 5px;
+        margin-left: 20px;
+        color: white;
+        background-color: grey;
+    }
+}
+
+@media(max-width:410px){
+    .display{
+        width: 1000%;
+        overflow: hidden;
+        height: 30vh;
+        background-color: black;
+        color: white;
+        font-size: 50px;
+        border: none;
+        text-align: left;   
+    }
+    
+    .input-number{
+        /* margin-left: 20px; */
+        background-color: black;
+        position: relative;
+        top:-5px;
+    }
+    
+    #value0{
+        padding: 25px;
+        padding-right: 120px;
+        border-radius: 26em;
+        border: none;
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 10px;
+        color: white;
+        background-color: rgb(36, 28, 28);
+    }
+    
+    #valuea{
+        padding: 30px;
+        border-radius: 100%;
+        border: none;
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 20px;
+        color: white;
+        background-color: rgb(36, 28, 28);
+    }
+    .symbol{
+        padding: 25px;
+        border-radius: 50%;
+        border: none;
+        font-size: 30px;
+        color: white;
+        font-weight: 600;
+        background-color: orange;
+    }
+    
+    
+    .number{
+        padding: 25px;
+        border-radius: 50%;
+        border: none;
+        font-size: 30px;
+        font-weight: 600;
+        margin: 5px;
+        margin-left: 15px;
+        color: white;
+        background-color: rgb(36, 28, 28);
+    }
+    
+    .numerals{
+        padding: 25px;
+        border-radius: 50%;
+        border: none;
+        font-size: 30px;
+        font-weight: 600;
+        margin: 5px;
+        color: white;
+        background-color: grey;
+    }
+}
+
+@media(max-width:300px){
+    .display{
+        width: 1000%;
+        overflow: hidden;
+        height: 40vh;
+        background-color: black;
+        color: white;
+        font-size: 50px;
+        border: none;
+        text-align: left;   
+    }
+    
+    .input-number{
+        /* margin-left: 20px; */
+        background-color: black;
+        position: relative;
+        top:-5px;
+        
+    }
+    
+    #value0{
+        padding: 15px;
+        padding-right: 90px;
+        border-radius: 26em;
+        border: none;
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 10px;
+        color: white;
+        background-color: rgb(36, 28, 28);
+    }
+    
+    #valuea{
+        padding: 20px;
+        border-radius: 100%;
+        border: none;
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 15px;
+        color: white;
+        background-color: rgb(36, 28, 28);
+    }
+    .symbol{
+        padding: 10px;
+        border-radius: 50%;
+        border: none;
+        font-size: 30px;
+        color: white;
+        font-weight: 600;
+        background-color: orange;
+    }
+    
+    
+    .number{
+        padding: 15px;
+        border-radius: 50%;
+        border: none;
+        font-size: 30px;
+        font-weight: 600;
+        margin: 5px;
+        margin-left: 15px;
+        color: white;
+        background-color: rgb(36, 28, 28);
+    }
+    
+    .numerals{
+        padding: 15px;
+        border-radius: 50%;
+        border: none;
+        font-size: 30px;
+        font-weight: 600;
+        margin: 5px;
+        color: white;
+        background-color: grey;
+    }
+}
+
+@media(max-width:320px){
+   .display{
+        width: 1000%;
+        overflow: hidden;
+        height: 40vh;
+        background-color: black;
+        color: white;
+        font-size: 50px;
+        border: none;
+        text-align: left;   
+    }
+    
+    .input-number{
+        /* margin-left: 20px; */
+        background-color: black;
+        position: relative;
+        top:-5px;
+        
+    }
+    
+    #value0{
+        padding: 15px;
+        padding-right: 90px;
+        border-radius: 26em;
+        border: none;
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 10px;
+        color: white;
+        background-color: rgb(36, 28, 28);
+    }
+    
+    #valuea{
+        padding: 20px;
+        border-radius: 100%;
+        border: none;
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 15px;
+        color: white;
+        background-color: rgb(36, 28, 28);
+    }
+    .symbol{
+        padding: 15px;
+        border-radius: 50%;
+        border: none;
+        font-size: 30px;
+        color: white;
+        font-weight: 600;
+        background-color: orange;
+    }
+    
+    
+    .number{
+        padding: 15px;
+        border-radius: 50%;
+        border: none;
+        font-size: 30px;
+        font-weight: 600;
+        margin: 5px;
+        margin-left: 15px;
+        color: white;
+        background-color: rgb(36, 28, 28);
+    }
+    
+    .numerals{
+        padding: 15px;
+        border-radius: 50%;
+        border: none;
+        font-size: 30px;
+        font-weight: 600;
+        margin: 5px;
+        color: white;
+        background-color: grey;
+    }
+}
+
